@@ -247,7 +247,7 @@ var loadTasks = function() {
         } else if (tasks[i].status === "in progress") {
             listItemE1.querySelector("select[name='status-change']").selectedIndex = 1;
             tasksInProgressE1.appendChild(listItemE1);
-        } else if (tasks[i].status === "complete") {
+        } else if (tasks[i].status === "completed") {
             listItemE1.querySelector("select[name='status-change']").selectedIndex = 2;
             tasksCompletedE1.appendChild(listItemE1);
         }
